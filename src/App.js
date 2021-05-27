@@ -27,19 +27,8 @@ import { render } from 'react-dom';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
 
-function display_menu(e){
- 
-}
-class App extends Component{
 
-  
-  componentDidMount(){
-    const togglebutton = document.getElementsByClassName('toggle-button')[0]
-    const links = document.getElementsByClassName('nav_com')[0]
-    togglebutton.addEventListener('click', () => {
-      links.classList.toggle('active');
-    })
-  }
+class App extends Component{
 render(){
  
   return (
