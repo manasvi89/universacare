@@ -45,23 +45,24 @@ render(){
           </div>
           <div id="navbar" >
             <img id="logo" src={ucl} alt="Logo"/>
-            <nav id="list" class="navbar" >
-                <a href="#"  class="toggle-button">
+            <a href="#"  class="toggle-button">
                   <span class="bar"></span>
                   <span class="bar"></span>
                   <span class="bar"></span>
                 </a>
+            <nav id="list" class="navbar" >
+                
                 <ul>
                 <li class="nav_com" id="a1"><a href="#">ABOUT</a></li>
-              
+                <div id="br1"></div>
                 <li class="nav_com" id="a2" ><a href="#">SERVICES</a></li>
-            
+                <div id="br2"></div>
                 <li class="nav_com" id="a3"><a href="#">RESOURCES</a></li>
-              
+                <div id="br3"></div>
                 <li class="nav_com" id="a4"><a href="#">CAREERS</a></li>
-                
+                <div id="br4"></div>
                 <li class="nav_com" id="a5"><a href="#">HOME CARE HEROS</a></li>
-          
+                <div id="br5"></div>
                 <li class="nav_com" id="a6"><a href="#">CONTACT</a></li>
                 </ul>
             </nav>
@@ -87,6 +88,17 @@ render(){
         </div>
       </div>
       <div id="carousel">
+        <div id="car-para">
+            <div id="peace">
+            Your peace of mind is <span id="peace-sp">our number one priority.</span>
+            </div>
+            <div id="pc-line">
+
+            </div>
+            <div id="pc-para">
+            UniversaCare offers a range of services for in-home care.  We are your partners in care, and work with you to come up with a plan of action. 
+            </div>
+        </div>
             <Carousel>
                 <div>
                     <img src={im1} />
@@ -154,7 +166,7 @@ render(){
               <div id="im4"><img  src={card4} alt="Icon"/></div>
               <div id="p4">
                   <div id="t4">
-                  4. Ongoing Support & Supervision
+                  4. Ongoing Support and <br></br>Supervision
                   </div>
                   <div id="tx4">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget augue nec massa volutpat aliquam fringilla non.
@@ -162,7 +174,7 @@ render(){
               </div>
             </div>
         </div>
-
+        </div>
         <div id="frame3">
             <div id="chap">
               <div id="ch-logo">
@@ -199,7 +211,7 @@ render(){
           <div id="pplrvw">
             <div id="r1">
               <div id="r11">
-                  <div id="al-st">
+                  <div id="al-st1">
                     <div id="al-nm">
                     Alvin Stanley
                     </div>
@@ -292,7 +304,7 @@ render(){
                                 <div id="cir1">
                                 </div>
                                 <div id="inf1">
-                                  Hourly Care
+                                <a href="#" >Hourly Care</a>
                                 </div>
                             </div>
                             <div id="itm2">
@@ -394,10 +406,10 @@ render(){
                 Follow Us
               </div>
               <div id="Icons">
-                <img id="fb" src={fb} alt="Facebook Icon"/>
-                <img id="ig" src={ig} alt="Instagram Icon"/>
-                <img id="ld" src={ld} alt="Linkedin Icon"/>
-                <img id="tr" src={tr} alt="Twitter Icon"/>
+              <a href="#"><img id="fb" src={fb} alt="Facebook Icon"/></a>
+              <a href="#"><img id="ig" src={ig} alt="Instagram Icon"/></a>
+              <a href="#"><img id="ld" src={ld} alt="Linkedin Icon"/></a>
+              <a href="#"><img id="tr" src={tr} alt="Twitter Icon"/></a>
               </div>
             </div>
             <div id="line">
@@ -408,7 +420,7 @@ render(){
             </div>
         </div>
 
-      </div>
+      
   </div>  
   )
 }
